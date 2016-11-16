@@ -1,0 +1,25 @@
+<!-- <h1>Book</h1>
+
+<div class="row">
+    <a href="#/book" class="btn btn-primary btn-lg">Back to Categories</a>
+</div>
+
+ -->
+
+<ion-view view-title="Books">
+  <ion-content class="padding">
+  <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="product in booksInCategory" type="item-text-wrap" href="#/tab/categories/{{product.cat_id}}/{{product._id}}" >
+       
+       
+
+            <img src="{{product.image}}" width="300" height="300"></a>
+            <h1>{{product.title}}</h1>
+        
+
+    
+
+      </ion-item>
+    </ion-list>    
+  </ion-content>
+</ion-view>

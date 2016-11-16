@@ -1,0 +1,17 @@
+<ion-view view-title="Chats">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="category in dataJson" type="item-text-wrap" href="#/tab/categories/{{category._id}}" >
+       
+       
+           
+            <img src="{{category.image}}" width="300" height="300"></a>
+            <h1>{{category.title}}</h1>
+        
+
+    
+
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

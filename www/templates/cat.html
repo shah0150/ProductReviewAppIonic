@@ -1,0 +1,10 @@
+<main>
+
+    <div>
+        <div class="col-xs-6 .col-sm-3" ng-repeat="category in dataJson.categories">
+            <a ui-sref="books({categoryID: category._id})" ui-sref-active="active"><img src="{{category.image}}" width="300" height="300"></a>
+        </div>
+
+    </div>
+
+</main>
